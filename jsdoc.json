@@ -1,0 +1,20 @@
+{
+  "source": {
+    "include": ["./"],
+    "includePattern": ".+\\.mjs$",
+    "excludePattern": "main\\.mjs$"
+  },
+  "sourceType": "module",
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "opts": {
+    "destination": "./doc.d",
+    "recurse": true
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false
+  }
+}
